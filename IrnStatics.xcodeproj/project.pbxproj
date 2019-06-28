@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		92236AE322C610430083CCF3 /* IrnLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 92236AE622C610430083CCF3 /* Build configuration list for PBXAggregateTarget "IrnLib" */;
+			buildPhases = (
+				92236AE822C610D70083CCF3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = IrnLib;
+			productName = IrnLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14CBB2B57C832ED25EB9531C /* libPods-IrnStatics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6AC604303EDCB215A11DC6 /* libPods-IrnStatics.a */; };
+		92236ADC22C5EBA30083CCF3 /* IrnStatics.m in Sources */ = {isa = PBXBuildFile; fileRef = 92236ADB22C5EBA30083CCF3 /* IrnStatics.m */; };
+		92236ADD22C5EBA30083CCF3 /* IrnStatics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92236ADA22C5EBA30083CCF3 /* IrnStatics.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92236AD522C5EBA30083CCF3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				92236ADD22C5EBA30083CCF3 /* IrnStatics.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1385DF198CB0CD09A7BF1295 /* Pods-IrnStatics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrnStatics.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrnStatics/Pods-IrnStatics.release.xcconfig"; sourceTree = "<group>"; };
+		4C6AC604303EDCB215A11DC6 /* libPods-IrnStatics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IrnStatics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92236AD722C5EBA30083CCF3 /* libIrnStatics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIrnStatics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		92236ADA22C5EBA30083CCF3 /* IrnStatics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrnStatics.h; sourceTree = "<group>"; };
+		92236ADB22C5EBA30083CCF3 /* IrnStatics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrnStatics.m; sourceTree = "<group>"; };
+		929C0E0E24F245EF0EC84280 /* Pods-IrnStatics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrnStatics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IrnStatics/Pods-IrnStatics.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92236AD422C5EBA30083CCF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CBB2B57C832ED25EB9531C /* libPods-IrnStatics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D69B881F9EFABBB6390964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6AC604303EDCB215A11DC6 /* libPods-IrnStatics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69D7A3C910BFD70D98AF5E2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				929C0E0E24F245EF0EC84280 /* Pods-IrnStatics.debug.xcconfig */,
+				1385DF198CB0CD09A7BF1295 /* Pods-IrnStatics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92236ACE22C5EBA30083CCF3 = {
+			isa = PBXGroup;
+			children = (
+				92236AD922C5EBA30083CCF3 /* IrnStatics */,
+				92236AD822C5EBA30083CCF3 /* Products */,
+				69D7A3C910BFD70D98AF5E2A /* Pods */,
+				66D69B881F9EFABBB6390964 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92236AD822C5EBA30083CCF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92236AD722C5EBA30083CCF3 /* libIrnStatics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92236AD922C5EBA30083CCF3 /* IrnStatics */ = {
+			isa = PBXGroup;
+			children = (
+				92236ADA22C5EBA30083CCF3 /* IrnStatics.h */,
+				92236ADB22C5EBA30083CCF3 /* IrnStatics.m */,
+			);
+			path = IrnStatics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92236AD622C5EBA30083CCF3 /* IrnStatics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92236AE022C5EBA30083CCF3 /* Build configuration list for PBXNativeTarget "IrnStatics" */;
+			buildPhases = (
+				C4D680560EC10D149F2F924A /* [CP] Check Pods Manifest.lock */,
+				92236AD322C5EBA30083CCF3 /* Sources */,
+				92236AD422C5EBA30083CCF3 /* Frameworks */,
+				92236AD522C5EBA30083CCF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrnStatics;
+			productName = IrnStatics;
+			productReference = 92236AD722C5EBA30083CCF3 /* libIrnStatics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92236ACF22C5EBA30083CCF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = uhutu;
+				TargetAttributes = {
+					92236AD622C5EBA30083CCF3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					92236AE322C610430083CCF3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 92236AD222C5EBA30083CCF3 /* Build configuration list for PBXProject "IrnStatics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92236ACE22C5EBA30083CCF3;
+			productRefGroup = 92236AD822C5EBA30083CCF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92236AD622C5EBA30083CCF3 /* IrnStatics */,
+				92236AE322C610430083CCF3 /* IrnLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92236AE822C610D70083CCF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#要build的target名\ntarget_Name=IrnStatics\n\n#编译模式  Release、Debug\nbuild_model=Release\n\n#获取工程当前所在路径\nproject_path=$(pwd)\n\n#编译文件路径\nbuildPath=${project_path}/build\n\necho $buildPath\n";
+		};
+		C4D680560EC10D149F2F924A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrnStatics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92236AD322C5EBA30083CCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92236ADC22C5EBA30083CCF3 /* IrnStatics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92236ADE22C5EBA30083CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92236ADF22C5EBA30083CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92236AE122C5EBA30083CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929C0E0E24F245EF0EC84280 /* Pods-IrnStatics.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92236AE222C5EBA30083CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1385DF198CB0CD09A7BF1295 /* Pods-IrnStatics.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92236AE422C610430083CCF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92236AE522C610430083CCF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92236AD222C5EBA30083CCF3 /* Build configuration list for PBXProject "IrnStatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92236ADE22C5EBA30083CCF3 /* Debug */,
+				92236ADF22C5EBA30083CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92236AE022C5EBA30083CCF3 /* Build configuration list for PBXNativeTarget "IrnStatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92236AE122C5EBA30083CCF3 /* Debug */,
+				92236AE222C5EBA30083CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92236AE622C610430083CCF3 /* Build configuration list for PBXAggregateTarget "IrnLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92236AE422C610430083CCF3 /* Debug */,
+				92236AE522C610430083CCF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92236ACF22C5EBA30083CCF3 /* Project object */;
+}
