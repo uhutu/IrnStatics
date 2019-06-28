@@ -176,7 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#要build的target名\ntarget_Name=IrnStatics\n\n#编译模式  Release、Debug\nbuild_model=Release\n\n#获取工程当前所在路径\nproject_path=$(pwd)\n\n#编译文件路径\nbuildPath=${project_path}/build\n\necho $buildPath\n";
+			shellScript = "#定义路径\nbuild_dir=~/Library/Developer/Xcode/DerivedData/IrnStatics-hbttpggvtaqdbkdqmoiecmimorwl/Build/Products\n\n#编译模式  Release、Debug\nbuild_model=Debug\n\nproject_path=$(pwd)\n\nios_dir=${build_dir}/${build_model}-iphoneos\n\nsimulator_dir=${build_dir}/${build_model}-iphonesimulator\n\n\ninstall_dir=${project_path}/IrnLib\n\necho ${install_dir}\n\nlipo -create ${simulator_dir}/libIrnStatics.a ${ios_dir}/libIrnStatics.a -output ${install_dir}/libIrnStatics.a\n\nlipo -create ${simulator_dir}/libPods-IrnStatics.a ${ios_dir}/libPods-IrnStatics.a -output ${install_dir}/libPods-IrnStatics.a\n\nlipo -create ${simulator_dir}/DoubleConversion/libDoubleConversion.a ${ios_dir}/DoubleConversion/libDoubleConversion.a -output ${install_dir}/libDoubleConversion.a\n\nlipo -create ${simulator_dir}/Folly/libFolly.a ${ios_dir}/Folly/libFolly.a -output ${install_dir}/libFolly.a\n\nlipo -create ${simulator_dir}/React/libReact.a ${ios_dir}/React/libReact.a -output ${install_dir}/libReact.a\n\nlipo -create ${simulator_dir}/glog/libglog.a ${ios_dir}/glog/libglog.a -output ${install_dir}/libglog.a\n\nlipo -create ${simulator_dir}/yoga/libyoga.a ${ios_dir}/yoga/libyoga.a -output ${install_dir}/libyoga.a\n\n\ncp -R ${ios_dir}/include/ ${install_dir}\n\n\n\n\n\n\n\n\n\n\n\n";
 		};
 		C4D680560EC10D149F2F924A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
